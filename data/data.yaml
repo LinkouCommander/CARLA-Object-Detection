@@ -1,0 +1,15 @@
+train: D:/carla_dataset_yolov8/data/train
+val: D:/carla_dataset_yolov8/data/valid
+test: D:/carla_dataset_yolov8/data/test
+
+nc: 10
+names: ['bike', 'motobike', 'person', 'traffic_light_green', 'traffic_light_orange', 'traffic_light_red', 'traffic_sign_30', 'traffic_sign_60', 'traffic_sign_90', 'vehicle']
+
+roboflow:
+  workspace: carla-m1eac
+  project: carla-object-detection-model-8usui
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/carla-m1eac/carla-object-detection-model-8usui/dataset/1
+
+  
